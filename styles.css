@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;    
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(img/fondo.jpeg);
+}
+
+form{
+    font-size: 1.5em;
+    width: 70vw;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    background-color: black;
+    border-color: blue;
+    padding-bottom: 2em;
+    opacity: 95%;
+    padding-left: 20px;
+    
+}
+
+h1, p{ 
+    text-align: center;
+    color: blanchedalmond;
+}
+
+label{
+    display: block;
+    margin:  0.5rem 0;
+}
+
+h1{
+    font-size: 3em;
+    padding: 0;
+}
+
+p{
+    font-size: 1.5em;
+
+}
+
+fieldset{
+    border: transparent;
+}
+input{
+    width: 80%;
+    height: 2em;
+    font-size: 0.8em;
+    margin-bottom: 50px;
+
+}
+
+input[type="submit"]{
+    display: block;
+    width: 40%;
+    height: 2em;
+    margin: 1em auto;
+    font-size: 1.4rem;
+    background-color: #000000;
+    border-color: #0000ff;
+    color: white;
+    min-width: 300px;
+    border-radius: 5px;
+}
+
+select{
+    width: 80%;
+    height: 2em;
+    font-size: 0.8em;
+    margin-bottom: 50px;
+}
+
+.inline{
+    width: 1em;
+    margin: 0 1em 0 0;
+    vertical-align: middle;
+}
+ 
+
+fieldset{
+    margin-bottom: 2em;
+
+}
+
+.check-inline{
+    width: 1em;
+    margin: 0 1em 0 0;
+    vertical-align: middle;
+}
+
+textarea{
+    width: 80%;
+    border-color: blue;
+    font-size: 1em;
+}

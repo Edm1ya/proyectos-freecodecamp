@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title"> Text Survey Form </h1>
+        <p id="description">
+            This is a HTML and CSS test form
+        </p>
+        <form id="survey-form">
+
+            <fieldset>
+                <label id="name-label">Name </label>
+                <input id="name" type="text" placeholder="Name" required>
+
+                <label id="email-label">Email </label>
+                <input id="email" type="email" placeholder="Email" required>
+                
+                <label id="number-label">Age </label>
+                <input id="number" type="number" required min="15" max="110" placeholder="Age"> 
+            </fieldset>
+
+            <fieldset>
+            <label for="dropdown">What is your favorite programming language?</label>
+            <select name="selection" id="dropdown"> 
+                <option value="1" selected> Python </option>
+                <option value="2"> Java Script</option>
+                <option value="3"> PHP</option>
+                <option value="4"> C#</option>
+                <option value="5"> Java</option>
+                <option value="3"> (Otros)</option>
+            </select>
+            </fieldset>
+
+            <fieldset >
+                <label > How much do you like programming?</label>
+                
+                <label for="like-prog"><input name="like-programming" type="radio" value="1" id="like" class="inline">I like it a lot </label>
+
+                <label for="like-prog"><input name="like-programming" type="radio" value="2"  id="like-bit" class="inline">I like a bit</label>
+                
+                <label for="like-prog"><input name="like-programming" type="radio" value="3"  id="not-like" class="inline">I don't like</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="sector-like"> In which sector of programming would you like to work? (Check all that apply)</label> 
+
+                <label for="check"><input type="checkbox" id="web" name="check" class="check-inline" value="check1">Web development </label>
+
+                <label for="check"><input type="checkbox" id="mobile" name="check" class="check-inline" value="check2"> mobile development </label>
+
+                <label for="check"> <input type="checkbox" id="desktop" name="check" class="check-inline" value="check3"> desktop applications </label>
+
+                <label for="check"> <input type="checkbox" id="web" name="check" class="check-inline" value="check4"> Data Science </label>
+
+                <label for="check"> <input type="checkbox" id="web" name="check" class="check-inline" value="check5">Otros </label>
+            </fieldset>
+
+            <fieldset>
+                <label >Some programming experience?</label> 
+                <textarea id="experience" name="bio" rows="3" cols="30" placeholder="Tell us..."> </textarea>
+            </fieldset>
+
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </body>
+</html>
